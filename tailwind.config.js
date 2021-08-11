@@ -8,6 +8,9 @@ module.exports = {
   variants: {
     extend: {
       animation: ["group-hover"],
+      screens: {
+        "3xl": "2000px",
+      }
     },
     transitionProperty:['responsive','motion-safe','motion-reduce'],
     scrollbar: ['dark']
