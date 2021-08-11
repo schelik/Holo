@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       animation: ["group-hover"],
     },
+    transitionProperty:['responsive','motion-safe','motion-reduce'],
+    scrollbar: ['dark']
+
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }
